@@ -6,7 +6,7 @@ public class Main {
         Connection conn = null;
         Statement st = null;
         try {
-            conn = Db.getConnection();
+            conn = DB.getConnection();
 
             conn.setAutoCommit(false);
 
